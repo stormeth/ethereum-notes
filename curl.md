@@ -8,5 +8,5 @@ curl -L "http://localhost:8545" -X POST --data '{"jsonrpc":"2.0","method":"eth_g
 
 curl -L "http://localhost:8545" -X POST --data '{"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":1}'
 
-curl -L "http://localhost:8545" -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByNumber","params":["0xe8"],"id":1}'
+curl -L "http://localhost:8545" -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByNumber","params":["0x26ea8"],"id":1}'
 
